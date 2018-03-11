@@ -1,0 +1,70 @@
+.navbar{
+    height: 75px;
+}
+img{
+    height: 200%;
+}
+li{
+    margin-top: 5%;   
+}
+#pills{
+    margin-top: 10%;
+    
+}
+.tab-content{
+    margin-top: 5%;
+    text-align: center;
+}
+.order,.deliver,.ordertime,.deliverytime{
+    margin-top: 6%;
+}
+
+.btn,.div{
+    margin-top: 4%;
+}
+.Rname{
+    margin-top: 8%;
+}
+.sellingout{
+    margin-top: 12%;
+    font-size: 18px;
+}
+.soldout2{
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+.soldout{
+    font-size: 20px;
+    margin-left: 12%;
+    color: #EF3A24;
+    text-decoration: underline;
+}
+.Rimage{
+    height: 300px;
+    width: 300px;
+}
+input{
+    visibility: hidden;
+}
+body{
+    background-color: #00A5B3;
+}
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.btn{
+    color: white;
+    background-color: #EF3A24;
+}
+a{
+    color: white;
+}
+.nav-pills>li.active>a:hover{
+    color: #EF3A24;
+    background-color: white;
+}
+a:hover{
+    color: #EF3A24;
+    background-color: white;
+}
+p,h2,h3{
+    color: white;
+}

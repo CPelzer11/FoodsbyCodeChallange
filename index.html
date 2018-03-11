@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href = "style.css" type = "text/css" rel = "stylesheet">
+        <script src="restaurants.js"></script>
+        <title>
+            FOODSBY - STAY IN THE ZONE
+        </title>
+    </head>
+    
+    <body onload="buildpage()">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">
+                <img src="https://www.foodsby.com/main/wp-content/themes/foodsby/assets/images/logo.png" alt="FOODSBY LOGO">  
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="col-lg-12 ">
+            <div class="col-lg-3"></div>
+            <div id="pills" class="col-lg-6">
+                <ul class="nav nav-pills nav-justified">
+                  <li class="active"><a data-toggle="pill" id="M" href="#Monday">Monday</a></li>
+                  <li><a data-toggle="pill" id="T" href="#Tuesday">Tuesday</a></li>
+                  <li><a data-toggle="pill" id="W" href="#Wednesday">Wednesday</a></li>
+                  <li><a data-toggle="pill" id="TH" href="#Thursday">Thursday</a></li>
+                  <li><a data-toggle="pill" id="F" href="#Friday">Friday</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 "></div>
+        
+        
+        <div class="tab-content col-lg-6">
+            
+          <div id="Monday" class="tab-pane fade in active">
+          </div>
+            
+          <div id="Tuesday" class="tab-pane fade">
+          </div>
+            
+          <div id="Wednesday" class="tab-pane fade">
+          </div>
+            
+          <div id="Thursday" class="tab-pane fade">
+          </div>
+            
+          <div id="Friday" class="tab-pane fade">
+          </div>
+            
+        </div>
+    </body>
+    
+</html>
